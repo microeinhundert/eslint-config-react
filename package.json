@@ -6,7 +6,7 @@
 	"author": "Leon Seipp <l.seipp@browserwerk.de>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/microeinhundert-org/eslint-config-react.git"
+    "url": "https://github.com/microeinhundert/eslint-config-react.git"
   },
 	"peerDependencies": {
 		"eslint": "^7",
