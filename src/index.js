@@ -82,6 +82,10 @@ module.exports = {
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
 
+    // Sonarjs
+    'sonarjs/no-duplicate-string': 'off',
+    'sonarjs/no-nested-template-literals': 'off',
+
     // Other
     camelcase: 'off',
     'no-shadow': 'off',
@@ -91,8 +95,6 @@ module.exports = {
     'consistent-return': ['error', { treatUndefinedAsUnspecified: true }],
     'jsx-a11y/anchor-is-valid': 'off',
     'prettier/prettier': 'error',
-    'sonarjs/no-duplicate-string': 'off',
-    'sonarjs/no-nested-template-literals': 'off',
   },
   overrides: [
     {
