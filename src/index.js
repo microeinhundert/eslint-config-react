@@ -1,7 +1,6 @@
 const resolvableFileExtensions = ['.js', '.jsx', '.ts', '.tsx'];
 
 module.exports = {
-  parser: '@typescript-eslint/parser',
   env: {
     es2021: true,
     node: true,
@@ -20,7 +19,6 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
   parserOptions: {
-    sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
     },
@@ -110,6 +108,7 @@ module.exports = {
     },
     {
       files: ['*.{ts,tsx}'],
+      parser: '@typescript-eslint/parser',
       plugins: ['@typescript-eslint'],
       extends: [
         'plugin:@typescript-eslint/recommended',

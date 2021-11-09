@@ -4,6 +4,10 @@
 	"description": "ESLint config for react projects",
 	"main": "src/index.js",
 	"author": "Leon Seipp <l.seipp@browserwerk.de>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/microeinhundert-org/eslint-config-react.git"
+  },
 	"peerDependencies": {
 		"eslint": "^7",
 		"prettier": "^2.4.1"
