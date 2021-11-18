@@ -3,7 +3,6 @@ const resolvableFileExtensions = ['.js', '.jsx', '.ts', '.tsx'];
 module.exports = {
   env: {
     es2021: true,
-    node: true,
     browser: true,
   },
   plugins: ['import', 'simple-import-sort', 'sonarjs', 'formatjs', 'prettier'],
