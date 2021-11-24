@@ -1,6 +1,6 @@
 {
   "name": "@microeinhundert/eslint-config-react",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "ESLint config for react projects",
   "main": "src/index.js",
   "author": "Leon Seipp <l.seipp@microeinhundert.com>",
@@ -13,16 +13,13 @@
   "scripts": {
     "dependencies:update": "ncu && yarpm i"
   },
-  "engines": {
-    "node": ">=16"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/microeinhundert/eslint-config-react.git"
   },
   "peerDependencies": {
-    "eslint": "^7.32.0",
-    "prettier": "^2.4.0"
+    "eslint": ">= 7",
+    "prettier": ">= 2"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.4.0",
