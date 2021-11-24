@@ -18,8 +18,8 @@
     "url": "https://github.com/microeinhundert/eslint-config-react.git"
   },
   "peerDependencies": {
-    "eslint": ">= 7",
-    "prettier": ">= 2",
+    "eslint": "^7.32.0",
+    "prettier": "^2.4.0",
     "@rushstack/eslint-patch": "^1.1.0"
   },
   "dependencies": {
