@@ -19,7 +19,8 @@
   },
   "peerDependencies": {
     "eslint": ">= 7",
-    "prettier": ">= 2"
+    "prettier": ">= 2",
+    "@rushstack/eslint-patch": "^1.1.0"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.4.0",
