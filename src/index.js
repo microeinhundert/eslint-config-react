@@ -37,6 +37,9 @@ module.exports = {
       node: {
         extensions: resolvableFileExtensions,
       },
+      alias: {
+        extensions: resolvableFileExtensions,
+      },
     },
     react: {
       version: 'detect',

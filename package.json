@@ -1,6 +1,6 @@
 {
   "name": "@microeinhundert/eslint-config-react",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "ESLint config for react projects",
   "main": "src/index.js",
   "author": "Leon Seipp <l.seipp@microeinhundert.com>",
@@ -18,15 +18,16 @@
     "url": "https://github.com/microeinhundert/eslint-config-react.git"
   },
   "peerDependencies": {
+    "@rushstack/eslint-patch": "^1.1.0",
     "eslint": "^7.32.0",
-    "prettier": "^2.4.0",
-    "@rushstack/eslint-patch": "^1.1.0"
+    "prettier": "^2.4.0"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-alias": "^1.1.2",
     "eslint-import-resolver-typescript": "^2.5.0",
     "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-formatjs": "^2.18.0",
