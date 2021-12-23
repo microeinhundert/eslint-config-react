@@ -3,9 +3,11 @@ const overrides = require('./overrides');
 const { resolvableFileExtensions } = require('./constants');
 
 module.exports = {
+  parser: '@babel/eslint-parser',
   env: {
-    es2021: true,
+    node: true,
     browser: true,
+    es2021: true,
   },
   plugins: [
     'import',
@@ -28,6 +30,7 @@ module.exports = {
   parserOptions: {
     project: './tsconfig.json',
     sourceType: 'module',
+    requireConfigFile: false,
     ecmaFeatures: {
       jsx: true,
     },
@@ -42,7 +45,7 @@ module.exports = {
       },
     },
     react: {
-      version: 'detect',
+      version: '17',
     },
   },
   rules,

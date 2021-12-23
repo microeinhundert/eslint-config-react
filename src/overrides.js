@@ -30,9 +30,16 @@ module.exports = [
     },
     rules: {
       '@typescript-eslint/no-unused-vars': [
-        2,
+        'error',
         {
+          ignoreRestSiblings: true,
           argsIgnorePattern: '^_',
+        },
+      ],
+      '@typescript-eslint/consistent-type-imports': [
+        'error',
+        {
+          prefer: 'type-imports',
         },
       ],
       '@typescript-eslint/ban-types': 'off',
