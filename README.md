@@ -1,6 +1,6 @@
 # ESLint Config React
 
-ESLint config for react projects.
+ESLint config for React projects.
 
 ## Install
 
